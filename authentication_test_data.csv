@@ -1,0 +1,4 @@
+﻿email,password,expectedStatus,scenario
+student_user_1@test.com,TestPass123!,200,Valid Credentials Login
+student_user_1@test.com,WrongPassword!,400,Invalid Password Check
+,TestPass123!,400,Missing Email Field Validation
